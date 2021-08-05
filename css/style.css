@@ -9,9 +9,9 @@ span {
     content: ' km';
 }
 
-#discount::after {
+/* #discount::after {
     content: ' \0025';
-}
+} */
 
 #price::after {
     content: ' \20AC';
