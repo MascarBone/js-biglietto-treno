@@ -1,0 +1,18 @@
+span {
+    color: rgb(35, 75, 28);
+    background-color: rgba(26, 25, 25, 0.102);
+    border-radius: 10px;
+    padding: 0 8px 8px 8px;
+}
+
+#distance::after {
+    content: ' km';
+}
+
+#discount::after {
+    content: ' \0025';
+}
+
+#price::after {
+    content: ' \20AC';
+}
